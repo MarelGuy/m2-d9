@@ -1,0 +1,35 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    background-color: #dddddd;
+}
+
+.text {
+    font-size: 1.25vw
+}
+
+.imgs {
+    max-width: 17vw;
+}
+
+.albtext {
+    font-size: 1.15vw;
+}
+
+.lilimgs {
+    max-width: 8vw;
+    margin-top: 0.7vw;
+}
+
+.hs {
+    font-weight: bold;
+    text-align: center;
+}
+
+.albimg {
+    margin-bottom: 0.5vh;
+}
+
+button:hover {
+    box-shadow: .1vw .1vw 5px black
+}

@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- IMPORT ALL THE BOOTSTRAP RELATED CSS & SCRIPTS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style-global.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+    <title>StrivePage</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <Menu>Menu</Menu>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="1alb.html">TIR2C Soundtracks<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="2alb.html">H.C.E.</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="3alb.html">KNNW Soundtracks</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="4alb.html">Phronesis</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr>
+    <div>
+
+        <img class="img-fluid rounded float-left" style="width: 22vw; margin-left: .5vw;"
+            src="https://www.morecore.de/wp-content/uploads/Monuments_Phronesis_2018.jpg" alt="Imagne not available">
+        <h3 style="margin-left: 30vw;" class="text">Monuments - Phronesis</h3>
+        <div>
+            <button class="btn btn-success" data-toggle="modal" data-target="#modal">
+                Add track
+            </button>
+            <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Add new track</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Track number</label>
+                                    <input class="form-control" id="exampleFormControlInput1" placeholder="#">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Track name</label>
+                                    <input class="form-control" id="exampleFormControlInput1" placeholder="Number">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Track lenght</label>
+                                    <input class="form-control" id="exampleFormControlInput1" placeholder="xx:xx">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1">Track featuring</label>
+                                    <input class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                                </div>
+
+
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            <input type="checkbox" aria-label="Checkbox for following text input">
+                                        </div>
+                                    </div> Live Track
+
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-success">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h5 style="margin-left: 23.5vw;" class="text">Song List:</h5>
+
+        <ol style="float: left;" class="text">
+            <li>
+                A.W.O.L.
+            </li>
+            <li>
+                Hollow King
+            </li>
+            <li>
+                Vanta
+            </li>
+            <li>
+                Mirror Image
+            </li>
+            <li>
+                Ivory
+            </li>
+            <li>
+                Stygian Blue
+            </li>
+            <li>
+                Leviathan
+            </li>
+            <li>
+                Celeste
+            </li>
+            <li>
+                Jukai
+            </li>
+            <li style="margin-left: 0.5vw;">
+                The Watch
+            </li>
+        </ol>
+        <p style="margin-left: 40vw;" class="text">Release Date October 5, 2018</p>
+        <p style="margin-left: 40vw;" class="text">Lenght: 39:46 min</p>
+        <p style="margin-left: 40vw;" class="text">Genre: Djent/Metal/Heavy Metal</p>
+        <p style="margin-left: 40vw;
+        max-width:21vw;" class="text">This album is extremly unique, mostly for the guitar and the solos that take part
+            in every song. <break>Furthermore the singer has a different voice among every band i listened to in every
+                band</p>
+    </div>
+    <hr style="margin-top: 1.5vw">
+</body>
+
+</html>
